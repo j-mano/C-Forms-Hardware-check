@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "za/qi+9VkKxplDSoh7E5UsszSfxRWxRk8qIHWqFJ3Bc3HqAV/57OcT8hUI+8lTjwZcUr7+fp0dZ1WQ1re6hjhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joachim\\.nuget\\packages\\hardware.info\\1.0.0.1\\hardware.info.1.0.0.1.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\managedcuda-nvml.netstandard\\9.1.300\\managedcuda-nvml.netstandard.9.1.300.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\managedcuda.netstandard\\9.1.300\\managedcuda.netstandard.9.1.300.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\nvapiwrapper.net\\0.8.1.101\\nvapiwrapper.net.0.8.1.101.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.management\\4.7.0\\system.management.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

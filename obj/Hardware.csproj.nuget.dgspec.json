@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj",
+        "projectName": "Hardware",
+        "projectPath": "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj",
+        "packagesPath": "C:\\Users\\Joachim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joachim\\source\\repos\\Hardware\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Joachim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Joachim\\source\\repos\\Servises\\Servises.csproj": {
+                "projectPath": "C:\\Users\\Joachim\\source\\repos\\Servises\\Servises.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Hardware.Info": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "ManagedCuda-Nvml.NETStandard": {
+              "target": "Package",
+              "version": "[9.1.300, )"
+            },
+            "NvAPIWrapper.Net": {
+              "target": "Package",
+              "version": "[0.8.1.101, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Joachim\\source\\repos\\Servises\\Servises.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joachim\\source\\repos\\Servises\\Servises.csproj",
+        "projectName": "Servises",
+        "projectPath": "C:\\Users\\Joachim\\source\\repos\\Servises\\Servises.csproj",
+        "packagesPath": "C:\\Users\\Joachim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joachim\\source\\repos\\Servises\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Joachim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Hardware.Info": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "ManagedCuda-Nvml.NETStandard": {
+              "target": "Package",
+              "version": "[9.1.300, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NvAPIWrapper.Net": {
+              "target": "Package",
+              "version": "[0.8.1.101, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
