@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Hardware.Info" Version="1.0.0.1" />
+    <PackageReference Include="ManagedCuda-Nvml.NETStandard" Version="9.1.300" />
     <PackageReference Include="NvAPIWrapper.Net" Version="0.8.1.101" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Servises\Servises.csproj" />
   </ItemGroup>
 
 </Project>

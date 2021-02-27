@@ -6,7 +6,6 @@ C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Hardware.dll
 C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\ref\Hardware.dll
 C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Hardware.pdb
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.csprojAssemblyReference.cache
-C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.Form1.resources
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.csproj.GenerateResource.cache
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.AssemblyInfoInputs.cache
@@ -16,3 +15,15 @@ C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.dll
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\ref\Hardware.dll
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.pdb
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.genruntimeconfig.cache
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Hardware.Info.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\ManagedNvml.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\ManagedCuda.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\NvAPIWrapper.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\System.Management.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\linux-x64\native\libnvml.so
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\linux-x64\native\libnvcuda.so
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Servises.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Servises.pdb
+C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.FrontEnd.resources
+C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.csproj.CopyComplete

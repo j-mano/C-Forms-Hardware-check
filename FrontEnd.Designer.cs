@@ -29,32 +29,37 @@ namespace Hardware
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Cpu_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.Gpu_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.Ram_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.Vram_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.Os_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.OS_Build_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.Gpu_Driver_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.Cpu_Temp_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.Gpu_Temp_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.Bios_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.Battery_Lbl_PrintOut = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.MotherBoard_Lbl_PrintOut = new System.Windows.Forms.Label();
+            this.Gpu_MaxWattage_Lbl_PrintOut = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.Cpu_artchitechture_LBL_Printout = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -77,14 +82,14 @@ namespace Hardware
             this.label2.Text = "Cpu:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // Cpu_Lbl_PrintOut
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 76);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.Cpu_Lbl_PrintOut.AutoSize = true;
+            this.Cpu_Lbl_PrintOut.Location = new System.Drawing.Point(12, 76);
+            this.Cpu_Lbl_PrintOut.Name = "Cpu_Lbl_PrintOut";
+            this.Cpu_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Cpu_Lbl_PrintOut.TabIndex = 2;
+            this.Cpu_Lbl_PrintOut.Text = "label3";
             // 
             // label4
             // 
@@ -95,14 +100,14 @@ namespace Hardware
             this.label4.TabIndex = 3;
             this.label4.Text = "Gpu:";
             // 
-            // label5
+            // Gpu_Lbl_PrintOut
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 125);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.Gpu_Lbl_PrintOut.AutoSize = true;
+            this.Gpu_Lbl_PrintOut.Location = new System.Drawing.Point(12, 125);
+            this.Gpu_Lbl_PrintOut.Name = "Gpu_Lbl_PrintOut";
+            this.Gpu_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Gpu_Lbl_PrintOut.TabIndex = 4;
+            this.Gpu_Lbl_PrintOut.Text = "label5";
             // 
             // label6
             // 
@@ -113,14 +118,14 @@ namespace Hardware
             this.label6.TabIndex = 5;
             this.label6.Text = "Ram amount:";
             // 
-            // label7
+            // Ram_Lbl_PrintOut
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 184);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.Ram_Lbl_PrintOut.AutoSize = true;
+            this.Ram_Lbl_PrintOut.Location = new System.Drawing.Point(13, 184);
+            this.Ram_Lbl_PrintOut.Name = "Ram_Lbl_PrintOut";
+            this.Ram_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Ram_Lbl_PrintOut.TabIndex = 6;
+            this.Ram_Lbl_PrintOut.Text = "label7";
             // 
             // label8
             // 
@@ -132,14 +137,14 @@ namespace Hardware
             this.label8.Text = "Vram Amount:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // label9
+            // Vram_Lbl_PrintOut
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 241);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "label9";
+            this.Vram_Lbl_PrintOut.AutoSize = true;
+            this.Vram_Lbl_PrintOut.Location = new System.Drawing.Point(13, 241);
+            this.Vram_Lbl_PrintOut.Name = "Vram_Lbl_PrintOut";
+            this.Vram_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Vram_Lbl_PrintOut.TabIndex = 8;
+            this.Vram_Lbl_PrintOut.Text = "label9";
             // 
             // label10
             // 
@@ -150,14 +155,14 @@ namespace Hardware
             this.label10.TabIndex = 9;
             this.label10.Text = "OS:";
             // 
-            // label11
+            // Os_Lbl_PrintOut
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(256, 76);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 15);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "label11";
+            this.Os_Lbl_PrintOut.AutoSize = true;
+            this.Os_Lbl_PrintOut.Location = new System.Drawing.Point(256, 76);
+            this.Os_Lbl_PrintOut.Name = "Os_Lbl_PrintOut";
+            this.Os_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Os_Lbl_PrintOut.TabIndex = 10;
+            this.Os_Lbl_PrintOut.Text = "label11";
             // 
             // label12
             // 
@@ -168,14 +173,14 @@ namespace Hardware
             this.label12.TabIndex = 11;
             this.label12.Text = "OS Build:";
             // 
-            // label13
+            // OS_Build_Lbl_PrintOut
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(256, 125);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(44, 15);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "label13";
+            this.OS_Build_Lbl_PrintOut.AutoSize = true;
+            this.OS_Build_Lbl_PrintOut.Location = new System.Drawing.Point(256, 125);
+            this.OS_Build_Lbl_PrintOut.Name = "OS_Build_Lbl_PrintOut";
+            this.OS_Build_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.OS_Build_Lbl_PrintOut.TabIndex = 12;
+            this.OS_Build_Lbl_PrintOut.Text = "label13";
             // 
             // label14
             // 
@@ -186,14 +191,14 @@ namespace Hardware
             this.label14.TabIndex = 13;
             this.label14.Text = "Gpu driver:";
             // 
-            // label15
+            // Gpu_Driver_Lbl_PrintOut
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(480, 76);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(44, 15);
-            this.label15.TabIndex = 14;
-            this.label15.Text = "label15";
+            this.Gpu_Driver_Lbl_PrintOut.AutoSize = true;
+            this.Gpu_Driver_Lbl_PrintOut.Location = new System.Drawing.Point(480, 76);
+            this.Gpu_Driver_Lbl_PrintOut.Name = "Gpu_Driver_Lbl_PrintOut";
+            this.Gpu_Driver_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Gpu_Driver_Lbl_PrintOut.TabIndex = 14;
+            this.Gpu_Driver_Lbl_PrintOut.Text = "label15";
             // 
             // label16
             // 
@@ -205,14 +210,14 @@ namespace Hardware
             this.label16.Text = "Cpu Temp:";
             this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
-            // label17
+            // Cpu_Temp_Lbl_PrintOut
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(480, 125);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(44, 15);
-            this.label17.TabIndex = 16;
-            this.label17.Text = "label17";
+            this.Cpu_Temp_Lbl_PrintOut.AutoSize = true;
+            this.Cpu_Temp_Lbl_PrintOut.Location = new System.Drawing.Point(480, 125);
+            this.Cpu_Temp_Lbl_PrintOut.Name = "Cpu_Temp_Lbl_PrintOut";
+            this.Cpu_Temp_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Cpu_Temp_Lbl_PrintOut.TabIndex = 16;
+            this.Cpu_Temp_Lbl_PrintOut.Text = "label17";
             // 
             // label18
             // 
@@ -233,14 +238,14 @@ namespace Hardware
             this.label19.TabIndex = 18;
             this.label19.Text = "Gpu Max Watts";
             // 
-            // label20
+            // Gpu_Temp_Lbl_PrintOut
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(480, 183);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(44, 15);
-            this.label20.TabIndex = 19;
-            this.label20.Text = "label20";
+            this.Gpu_Temp_Lbl_PrintOut.AutoSize = true;
+            this.Gpu_Temp_Lbl_PrintOut.Location = new System.Drawing.Point(480, 183);
+            this.Gpu_Temp_Lbl_PrintOut.Name = "Gpu_Temp_Lbl_PrintOut";
+            this.Gpu_Temp_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Gpu_Temp_Lbl_PrintOut.TabIndex = 19;
+            this.Gpu_Temp_Lbl_PrintOut.Text = "label20";
             // 
             // label21
             // 
@@ -251,14 +256,14 @@ namespace Hardware
             this.label21.TabIndex = 20;
             this.label21.Text = "Bios Version";
             // 
-            // label22
+            // Bios_Lbl_PrintOut
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(256, 183);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(44, 15);
-            this.label22.TabIndex = 21;
-            this.label22.Text = "label22";
+            this.Bios_Lbl_PrintOut.AutoSize = true;
+            this.Bios_Lbl_PrintOut.Location = new System.Drawing.Point(256, 183);
+            this.Bios_Lbl_PrintOut.Name = "Bios_Lbl_PrintOut";
+            this.Bios_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Bios_Lbl_PrintOut.TabIndex = 21;
+            this.Bios_Lbl_PrintOut.Text = "label22";
             // 
             // label23
             // 
@@ -270,14 +275,14 @@ namespace Hardware
             this.label23.Text = "Battery Driven?:";
             this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
-            // label24
+            // Battery_Lbl_PrintOut
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(13, 293);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(44, 15);
-            this.label24.TabIndex = 23;
-            this.label24.Text = "label24";
+            this.Battery_Lbl_PrintOut.AutoSize = true;
+            this.Battery_Lbl_PrintOut.Location = new System.Drawing.Point(13, 293);
+            this.Battery_Lbl_PrintOut.Name = "Battery_Lbl_PrintOut";
+            this.Battery_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Battery_Lbl_PrintOut.TabIndex = 23;
+            this.Battery_Lbl_PrintOut.Text = "label24";
             // 
             // label25
             // 
@@ -288,47 +293,84 @@ namespace Hardware
             this.label25.TabIndex = 24;
             this.label25.Text = "Moderbord";
             // 
-            // label26
+            // MotherBoard_Lbl_PrintOut
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(13, 349);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(44, 15);
-            this.label26.TabIndex = 25;
-            this.label26.Text = "label26";
+            this.MotherBoard_Lbl_PrintOut.AutoSize = true;
+            this.MotherBoard_Lbl_PrintOut.Location = new System.Drawing.Point(13, 349);
+            this.MotherBoard_Lbl_PrintOut.Name = "MotherBoard_Lbl_PrintOut";
+            this.MotherBoard_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.MotherBoard_Lbl_PrintOut.TabIndex = 25;
+            this.MotherBoard_Lbl_PrintOut.Text = "label26";
             // 
-            // Form1
+            // Gpu_MaxWattage_Lbl_PrintOut
+            // 
+            this.Gpu_MaxWattage_Lbl_PrintOut.AutoSize = true;
+            this.Gpu_MaxWattage_Lbl_PrintOut.Location = new System.Drawing.Point(480, 245);
+            this.Gpu_MaxWattage_Lbl_PrintOut.Name = "Gpu_MaxWattage_Lbl_PrintOut";
+            this.Gpu_MaxWattage_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Gpu_MaxWattage_Lbl_PrintOut.TabIndex = 26;
+            this.Gpu_MaxWattage_Lbl_PrintOut.Text = "label3";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 10000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(256, 225);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(96, 15);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Cpu architchture";
+            // 
+            // Cpu_artchitechture_LBL_Printout
+            // 
+            this.Cpu_artchitechture_LBL_Printout.AutoSize = true;
+            this.Cpu_artchitechture_LBL_Printout.Location = new System.Drawing.Point(256, 245);
+            this.Cpu_artchitechture_LBL_Printout.Name = "Cpu_artchitechture_LBL_Printout";
+            this.Cpu_artchitechture_LBL_Printout.Size = new System.Drawing.Size(38, 15);
+            this.Cpu_artchitechture_LBL_Printout.TabIndex = 28;
+            this.Cpu_artchitechture_LBL_Printout.Text = "label5";
+            // 
+            // FrontEnd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(642, 418);
-            this.Controls.Add(this.label26);
+            this.Controls.Add(this.Cpu_artchitechture_LBL_Printout);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Gpu_MaxWattage_Lbl_PrintOut);
+            this.Controls.Add(this.MotherBoard_Lbl_PrintOut);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
+            this.Controls.Add(this.Battery_Lbl_PrintOut);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
+            this.Controls.Add(this.Bios_Lbl_PrintOut);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.Gpu_Temp_Lbl_PrintOut);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.Cpu_Temp_Lbl_PrintOut);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.Gpu_Driver_Lbl_PrintOut);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.OS_Build_Lbl_PrintOut);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Os_Lbl_PrintOut);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.Vram_Lbl_PrintOut);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.Ram_Lbl_PrintOut);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.Gpu_Lbl_PrintOut);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Cpu_Lbl_PrintOut);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FrontEnd";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -339,30 +381,34 @@ namespace Hardware
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Cpu_Lbl_PrintOut;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Gpu_Lbl_PrintOut;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Ram_Lbl_PrintOut;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Vram_Lbl_PrintOut;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label Os_Lbl_PrintOut;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label OS_Build_Lbl_PrintOut;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label Gpu_Driver_Lbl_PrintOut;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label Cpu_Temp_Lbl_PrintOut;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label Gpu_Temp_Lbl_PrintOut;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label Bios_Lbl_PrintOut;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label Battery_Lbl_PrintOut;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label MotherBoard_Lbl_PrintOut;
+        private System.Windows.Forms.Label Gpu_MaxWattage_Lbl_PrintOut;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Cpu_artchitechture_LBL_Printout;
     }
 }
 
