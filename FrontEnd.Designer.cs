@@ -60,6 +60,9 @@ namespace Hardware
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.Cpu_artchitechture_LBL_Printout = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Gpu_Arthitecture_Lbl_printout = new System.Windows.Forms.Label();
+            this.Error_MS_LBL = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -70,7 +73,6 @@ namespace Hardware
             this.label1.Size = new System.Drawing.Size(94, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hardware Check";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -80,7 +82,6 @@ namespace Hardware
             this.label2.Size = new System.Drawing.Size(32, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Cpu:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Cpu_Lbl_PrintOut
             // 
@@ -135,7 +136,6 @@ namespace Hardware
             this.label8.Size = new System.Drawing.Size(85, 15);
             this.label8.TabIndex = 7;
             this.label8.Text = "Vram Amount:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // Vram_Lbl_PrintOut
             // 
@@ -208,7 +208,6 @@ namespace Hardware
             this.label16.Size = new System.Drawing.Size(64, 15);
             this.label16.TabIndex = 15;
             this.label16.Text = "Cpu Temp:";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // Cpu_Temp_Lbl_PrintOut
             // 
@@ -227,7 +226,6 @@ namespace Hardware
             this.label18.Size = new System.Drawing.Size(64, 15);
             this.label18.TabIndex = 17;
             this.label18.Text = "Gpu Temp:";
-            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label19
             // 
@@ -273,7 +271,6 @@ namespace Hardware
             this.label23.Size = new System.Drawing.Size(89, 15);
             this.label23.TabIndex = 22;
             this.label23.Text = "Battery Driven?:";
-            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // Battery_Lbl_PrintOut
             // 
@@ -335,12 +332,41 @@ namespace Hardware
             this.Cpu_artchitechture_LBL_Printout.TabIndex = 28;
             this.Cpu_artchitechture_LBL_Printout.Text = "label5";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(256, 278);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 15);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Gpu Arthitecture";
+            // 
+            // Gpu_Arthitecture_Lbl_printout
+            // 
+            this.Gpu_Arthitecture_Lbl_printout.AutoSize = true;
+            this.Gpu_Arthitecture_Lbl_printout.Location = new System.Drawing.Point(256, 293);
+            this.Gpu_Arthitecture_Lbl_printout.Name = "Gpu_Arthitecture_Lbl_printout";
+            this.Gpu_Arthitecture_Lbl_printout.Size = new System.Drawing.Size(38, 15);
+            this.Gpu_Arthitecture_Lbl_printout.TabIndex = 30;
+            this.Gpu_Arthitecture_Lbl_printout.Text = "label7";
+            // 
+            // Error_MS_LBL
+            // 
+            this.Error_MS_LBL.AutoSize = true;
+            this.Error_MS_LBL.Location = new System.Drawing.Point(592, 394);
+            this.Error_MS_LBL.Name = "Error_MS_LBL";
+            this.Error_MS_LBL.Size = new System.Drawing.Size(0, 15);
+            this.Error_MS_LBL.TabIndex = 31;
+            // 
             // FrontEnd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(642, 418);
+            this.Controls.Add(this.Error_MS_LBL);
+            this.Controls.Add(this.Gpu_Arthitecture_Lbl_printout);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.Cpu_artchitechture_LBL_Printout);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Gpu_MaxWattage_Lbl_PrintOut);
@@ -409,6 +435,9 @@ namespace Hardware
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Cpu_artchitechture_LBL_Printout;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Gpu_Arthitecture_Lbl_printout;
+        private System.Windows.Forms.Label Error_MS_LBL;
     }
 }
 
