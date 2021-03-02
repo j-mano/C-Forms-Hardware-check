@@ -93,6 +93,7 @@ namespace Hardware
             Gpu_Driver_Lbl_PrintOut.Text            = gpuModell.GpuDriverVersion;
             Gpu_Arthitecture_Lbl_printout.Text      = gpuModell.GpuVideoArchitecture.ToString();
             Vram_Lbl_PrintOut.Text                  = gpuModell.GpuAdapterRAM.ToString() + "b";
+            Max_Resolution_Printout_Lbl.Text        = gpuModell.GpuHighestResAmountSupport.ToString();
         }
 
         private MotherBoardModell GetMotherbordinfo()
@@ -103,7 +104,7 @@ namespace Hardware
             }
             catch(Exception e)
             {
-                Error_MS_LBL.Text = "Error, Exeption:" + e;
+                Error_MS_LBL2.Text = "Error, Exeption:" + e;
                 return new MotherBoardModell();
             }
         }
@@ -111,13 +112,22 @@ namespace Hardware
         private void printOutBios(MotherBoardModell motherborad)
         {
             Bios_Lbl_PrintOut.Text = motherborad.motherBoradBios;
+            MotherBoard_Lbl_PrintOut.Text = motherborad.motherBoardName;
         }
 
         private OSInfoModell Getosinfo()
         {
             try
             {
-                return GetOsInfo.GetOS();
+                OSInfoModell ReturnInfo = new OSInfoModell();
+
+                Task t3 = Task.Run(() => {
+                    ReturnInfo = GetOsInfo.GetOS();
+                });
+
+                t3.Wait();
+
+                return ReturnInfo;
             }
             catch(Exception e)
             {
@@ -169,7 +179,7 @@ namespace Hardware
 
         private void PrintOutRam(RamModell ramModell)
         {
-            Ram_Lbl_PrintOut.Text = ramModell.RamAmount;
+            Ram_Lbl_PrintOut.Text = ramModell.RamAmount + "b";
         }
 
         private void label1_Click(object sender, EventArgs e)
