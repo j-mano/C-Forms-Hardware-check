@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "za/qi+9VkKxplDSoh7E5UsszSfxRWxRk8qIHWqFJ3Bc3HqAV/57OcT8hUI+8lTjwZcUr7+fp0dZ1WQ1re6hjhw==",
+  "dgSpecHash": "STkWnGWqrwVCZJ+Raf/NpMunTb3ZZRwtU5CzgTErE2F6F2Pc5Cj5eA1zQAcKPupuj5amGEqwUrcfO0/sux9i8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Joachim\\.nuget\\packages\\aspose.email\\21.2.0\\aspose.email.21.2.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\hardware.info\\1.0.0.1\\hardware.info.1.0.0.1.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\managedcuda-nvml.netstandard\\9.1.300\\managedcuda-nvml.netstandard.9.1.300.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\managedcuda.netstandard\\9.1.300\\managedcuda.netstandard.9.1.300.nupkg.sha512",
@@ -13,7 +14,10 @@
     "C:\\Users\\Joachim\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.management\\4.7.0\\system.management.4.7.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

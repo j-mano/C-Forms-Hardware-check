@@ -123,6 +123,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Aspose.Email": {
+              "target": "Package",
+              "version": "[21.2.0, )"
+            },
             "Hardware.Info": {
               "target": "Package",
               "version": "[1.0.0.1, )"

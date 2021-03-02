@@ -27,3 +27,5 @@ C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Servises.dll
 C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Servises.pdb
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.FrontEnd.resources
 C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.csproj.CopyComplete
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Aspose.Email.dll
+C:\Users\Joachim\source\repos\Hardware\obj\Debug\net5.0-windows\Hardware.Properties.Resources.resources

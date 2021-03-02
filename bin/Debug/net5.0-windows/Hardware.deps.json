@@ -17,6 +17,18 @@
           "Hardware.dll": {}
         }
       },
+      "Aspose.Email/21.2.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "4.7.0",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aspose.Email.dll": {
+            "assemblyVersion": "21.2.0.0",
+            "fileVersion": "21.2.0.0"
+          }
+        }
+      },
       "Hardware.Info/1.0.0.1": {
         "dependencies": {
           "System.Management": "4.7.0"
@@ -104,9 +116,21 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
+      "System.Security.Cryptography.Cng/4.7.0": {},
+      "System.Security.Cryptography.Pkcs/4.7.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Cng": "4.7.0"
+        }
+      },
       "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
       "Servises/1.0.0": {
         "dependencies": {
+          "Aspose.Email": "21.2.0",
           "Hardware.Info": "1.0.0.1",
           "ManagedCuda-Nvml.NETStandard": "9.1.300",
           "NvAPIWrapper.Net": "0.8.1.101"
@@ -122,6 +146,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Aspose.Email/21.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hA1knWx9GrbnqS1/X4/24yNBAsfS3Ote1OFW4Lz+KpjJTDzqO037UmQ7wDipXsHUbULiaD7lpqqbOD7rCYySUA==",
+      "path": "aspose.email/21.2.0",
+      "hashPath": "aspose.email.21.2.0.nupkg.sha512"
     },
     "Hardware.Info/1.0.0.1": {
       "type": "package",
@@ -186,12 +217,33 @@
       "path": "system.security.accesscontrol/4.7.0",
       "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
     },
+    "System.Security.Cryptography.Cng/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4WQjFuypWtxb/bl/YwEE7LYGn4fgpsikFfBU6xwEm4YBYiRAhXAEJ62lILBu2JJSFbClIAntFTGfDZafn8yZTg==",
+      "path": "system.security.cryptography.cng/4.7.0",
+      "hashPath": "system.security.cryptography.cng.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Srzh6YlhjuMxaqMyeCCdZs22cucaUAG6SKDd3gNHBJmre0VZ71ekzWu9rvLD4YXPetyNdPvV6Qst+8C++9v3Q==",
+      "path": "system.security.cryptography.pkcs/4.7.0",
+      "hashPath": "system.security.cryptography.pkcs.4.7.0.nupkg.sha512"
+    },
     "System.Security.Principal.Windows/4.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
     },
     "Servises/1.0.0": {
       "type": "project",

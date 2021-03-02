@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Servises;
 using Servises.Modells;
-using System.Management;
+using Servises.Services;
 
 namespace Hardware
 {
@@ -27,6 +27,8 @@ namespace Hardware
              printOutGPU(loadGpu());
              printOutBios(GetMotherbordinfo());
              printOutOS(Getosinfo());
+             printOutBattery(getBattery());
+             PrintOutRam(GetRam());
         }
 
         private GpuModell loadGpu()
@@ -45,7 +47,7 @@ namespace Hardware
             }
             catch (Exception e)
             {
-                Error_MS_LBL.Text = "Error, Exeption:" + e;
+                Error_MS_LBL2.Text = "Error, Exeption:" + e;
                 return new GpuModell();
             }
         }
@@ -66,7 +68,7 @@ namespace Hardware
             }
             catch (Exception e)
             {
-                Error_MS_LBL.Text = "Error, Exeption:" + e;
+                Error_MS_LBL2.Text = "Error, Exeption:" + e;
                 return new CpuModell();
             }
         }
@@ -119,16 +121,65 @@ namespace Hardware
             }
             catch(Exception e)
             {
-                Error_MS_LBL.Text = "Error, Exeption:" + e;
+                Error_MS_LBL2.Text = "Error, Exeption:" + e;
                 return new OSInfoModell();
             }
-            
         }
 
         private void printOutOS(OSInfoModell os)
         {
             Os_Lbl_PrintOut.Text = os.OsName;
             OS_Build_Lbl_PrintOut.Text = os.OsVersion;
+        }
+
+        private void printOutBattery(BatteryModell battery)
+        {
+            if (battery.hasbattery)
+                Battery_Lbl_PrintOut.Text = "Has battery";
+            else
+                Battery_Lbl_PrintOut.Text = "Dosent have battery";
+        }
+
+        private BatteryModell getBattery()
+        {
+            try
+            {
+                return Get_Battery.Get_Battaryed();
+            }
+            catch
+            {
+                BatteryModell emty = new BatteryModell();
+
+                return emty;
+            }
+        }
+
+        private RamModell GetRam()
+        {
+            try
+            {
+                return Ram_Speed.GetRam();
+            }
+            catch (Exception e)
+            {
+                Error_MS_LBL2.Text = "Error, Exeption:" + e;
+                return new RamModell();
+            }
+        }
+
+        private void PrintOutRam(RamModell ramModell)
+        {
+            Ram_Lbl_PrintOut.Text = ramModell.RamAmount;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
