@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Servises;
 using Servises.Modells;
 using Servises.Services;
+using Servises.TempProgramImportApi;
 
 namespace Hardware
 {
@@ -23,12 +24,32 @@ namespace Hardware
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-             printoutCpu(loadCpu());
-             printOutGPU(loadGpu());
-             printOutBios(GetMotherbordinfo());
-             printOutOS(Getosinfo());
-             printOutBattery(getBattery());
-             PrintOutRam(GetRam());
+            printoutCpu(loadCpu());
+            printOutGPU(loadGpu());
+            printOutBios(GetMotherbordinfo());
+            printOutOS(Getosinfo());
+            printOutBattery(getBattery());
+            PrintOutRam(GetRam());
+            printouttemps(GetTemps());
+        }
+
+        private void printouttemps(TempModell SysTemps)
+        {
+            Cpu_Temp_Lbl_PrintOut.Text = SysTemps.CpuTemp.ToString();
+            Gpu_Temp_Lbl_PrintOut.Text = SysTemps.GpuTemp.ToString();
+        }
+
+        private TempModell GetTemps()
+        {
+            try
+            {
+                return SystemTemp.GetTemp();
+            }
+            catch (Exception e)
+            {
+                Error_MS_LBL2.Text = "Error, Exeption:" + e;
+                return new TempModell();
+            }
         }
 
         private GpuModell loadGpu()
@@ -188,6 +209,11 @@ namespace Hardware
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrontEnd_Load(object sender, EventArgs e)
         {
 
         }

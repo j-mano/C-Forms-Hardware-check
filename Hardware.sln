@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hardware", "Hardware.csproj", "{88B32BEA-F592-4603-B43A-41C1E7A01688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servises", "..\Servises\Servises.csproj", "{6700D039-3109-4210-8B8E-E249E3F44047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servises", "..\Servises\Servises.csproj", "{6700D039-3109-4210-8B8E-E249E3F44047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{875DB566-4112-486A-B094-E8F40FD34ADC}"
+	ProjectSection(SolutionItems) = preProject
+		Licensing.txt = Licensing.txt
+		System Specs.txt = System Specs.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

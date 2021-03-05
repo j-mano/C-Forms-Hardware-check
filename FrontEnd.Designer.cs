@@ -64,18 +64,24 @@ namespace Hardware
             this.Gpu_Arthitecture_Lbl_printout = new System.Windows.Forms.Label();
             this.Error_MS_LBL = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Max_Resolution_Printout_Lbl = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.Error_MS_LBL2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.Max_Resolution_Printout_Lbl = new System.Windows.Forms.Label();
+            this.Cpu_Temp_Message_LBL = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -102,9 +108,9 @@ namespace Hardware
             this.Cpu_Lbl_PrintOut.AutoSize = true;
             this.Cpu_Lbl_PrintOut.Location = new System.Drawing.Point(13, 25);
             this.Cpu_Lbl_PrintOut.Name = "Cpu_Lbl_PrintOut";
-            this.Cpu_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Cpu_Lbl_PrintOut.Size = new System.Drawing.Size(67, 15);
             this.Cpu_Lbl_PrintOut.TabIndex = 2;
-            this.Cpu_Lbl_PrintOut.Text = "label3";
+            this.Cpu_Lbl_PrintOut.Text = "CPU_Name";
             // 
             // label4
             // 
@@ -120,9 +126,9 @@ namespace Hardware
             this.Gpu_Lbl_PrintOut.AutoSize = true;
             this.Gpu_Lbl_PrintOut.Location = new System.Drawing.Point(13, 68);
             this.Gpu_Lbl_PrintOut.Name = "Gpu_Lbl_PrintOut";
-            this.Gpu_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Gpu_Lbl_PrintOut.Size = new System.Drawing.Size(67, 15);
             this.Gpu_Lbl_PrintOut.TabIndex = 4;
-            this.Gpu_Lbl_PrintOut.Text = "label5";
+            this.Gpu_Lbl_PrintOut.Text = "GPU_Name";
             // 
             // label6
             // 
@@ -138,9 +144,9 @@ namespace Hardware
             this.Ram_Lbl_PrintOut.AutoSize = true;
             this.Ram_Lbl_PrintOut.Location = new System.Drawing.Point(13, 116);
             this.Ram_Lbl_PrintOut.Name = "Ram_Lbl_PrintOut";
-            this.Ram_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Ram_Lbl_PrintOut.Size = new System.Drawing.Size(80, 15);
             this.Ram_Lbl_PrintOut.TabIndex = 6;
-            this.Ram_Lbl_PrintOut.Text = "label7";
+            this.Ram_Lbl_PrintOut.Text = "Ram_Amount";
             // 
             // label8
             // 
@@ -156,9 +162,9 @@ namespace Hardware
             this.Vram_Lbl_PrintOut.AutoSize = true;
             this.Vram_Lbl_PrintOut.Location = new System.Drawing.Point(15, 173);
             this.Vram_Lbl_PrintOut.Name = "Vram_Lbl_PrintOut";
-            this.Vram_Lbl_PrintOut.Size = new System.Drawing.Size(38, 15);
+            this.Vram_Lbl_PrintOut.Size = new System.Drawing.Size(115, 15);
             this.Vram_Lbl_PrintOut.TabIndex = 8;
-            this.Vram_Lbl_PrintOut.Text = "label9";
+            this.Vram_Lbl_PrintOut.Text = "Video_Ram_Amount";
             // 
             // label10
             // 
@@ -174,9 +180,9 @@ namespace Hardware
             this.Os_Lbl_PrintOut.AutoSize = true;
             this.Os_Lbl_PrintOut.Location = new System.Drawing.Point(10, 25);
             this.Os_Lbl_PrintOut.Name = "Os_Lbl_PrintOut";
-            this.Os_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Os_Lbl_PrintOut.Size = new System.Drawing.Size(130, 15);
             this.Os_Lbl_PrintOut.TabIndex = 10;
-            this.Os_Lbl_PrintOut.Text = "label11";
+            this.Os_Lbl_PrintOut.Text = "OperatingSystemName";
             // 
             // label12
             // 
@@ -192,9 +198,9 @@ namespace Hardware
             this.OS_Build_Lbl_PrintOut.AutoSize = true;
             this.OS_Build_Lbl_PrintOut.Location = new System.Drawing.Point(10, 68);
             this.OS_Build_Lbl_PrintOut.Name = "OS_Build_Lbl_PrintOut";
-            this.OS_Build_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.OS_Build_Lbl_PrintOut.Size = new System.Drawing.Size(63, 15);
             this.OS_Build_Lbl_PrintOut.TabIndex = 12;
-            this.OS_Build_Lbl_PrintOut.Text = "label13";
+            this.OS_Build_Lbl_PrintOut.Text = "OS Version";
             // 
             // label14
             // 
@@ -210,9 +216,9 @@ namespace Hardware
             this.Gpu_Driver_Lbl_PrintOut.AutoSize = true;
             this.Gpu_Driver_Lbl_PrintOut.Location = new System.Drawing.Point(12, 29);
             this.Gpu_Driver_Lbl_PrintOut.Name = "Gpu_Driver_Lbl_PrintOut";
-            this.Gpu_Driver_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Gpu_Driver_Lbl_PrintOut.Size = new System.Drawing.Size(66, 15);
             this.Gpu_Driver_Lbl_PrintOut.TabIndex = 14;
-            this.Gpu_Driver_Lbl_PrintOut.Text = "label15";
+            this.Gpu_Driver_Lbl_PrintOut.Text = "GPU_Driver";
             // 
             // label16
             // 
@@ -228,9 +234,9 @@ namespace Hardware
             this.Cpu_Temp_Lbl_PrintOut.AutoSize = true;
             this.Cpu_Temp_Lbl_PrintOut.Location = new System.Drawing.Point(12, 68);
             this.Cpu_Temp_Lbl_PrintOut.Name = "Cpu_Temp_Lbl_PrintOut";
-            this.Cpu_Temp_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Cpu_Temp_Lbl_PrintOut.Size = new System.Drawing.Size(64, 15);
             this.Cpu_Temp_Lbl_PrintOut.TabIndex = 16;
-            this.Cpu_Temp_Lbl_PrintOut.Text = "label17";
+            this.Cpu_Temp_Lbl_PrintOut.Text = "CPU_Temp";
             // 
             // label18
             // 
@@ -255,9 +261,9 @@ namespace Hardware
             this.Gpu_Temp_Lbl_PrintOut.AutoSize = true;
             this.Gpu_Temp_Lbl_PrintOut.Location = new System.Drawing.Point(12, 115);
             this.Gpu_Temp_Lbl_PrintOut.Name = "Gpu_Temp_Lbl_PrintOut";
-            this.Gpu_Temp_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Gpu_Temp_Lbl_PrintOut.Size = new System.Drawing.Size(64, 15);
             this.Gpu_Temp_Lbl_PrintOut.TabIndex = 19;
-            this.Gpu_Temp_Lbl_PrintOut.Text = "label20";
+            this.Gpu_Temp_Lbl_PrintOut.Text = "GPU_Temp";
             // 
             // label21
             // 
@@ -273,9 +279,9 @@ namespace Hardware
             this.Bios_Lbl_PrintOut.AutoSize = true;
             this.Bios_Lbl_PrintOut.Location = new System.Drawing.Point(10, 116);
             this.Bios_Lbl_PrintOut.Name = "Bios_Lbl_PrintOut";
-            this.Bios_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Bios_Lbl_PrintOut.Size = new System.Drawing.Size(147, 15);
             this.Bios_Lbl_PrintOut.TabIndex = 21;
-            this.Bios_Lbl_PrintOut.Text = "label22";
+            this.Bios_Lbl_PrintOut.Text = "MotherBoard_Bios_Version";
             // 
             // label23
             // 
@@ -291,14 +297,14 @@ namespace Hardware
             this.Battery_Lbl_PrintOut.AutoSize = true;
             this.Battery_Lbl_PrintOut.Location = new System.Drawing.Point(13, 226);
             this.Battery_Lbl_PrintOut.Name = "Battery_Lbl_PrintOut";
-            this.Battery_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.Battery_Lbl_PrintOut.Size = new System.Drawing.Size(72, 15);
             this.Battery_Lbl_PrintOut.TabIndex = 23;
-            this.Battery_Lbl_PrintOut.Text = "label24";
+            this.Battery_Lbl_PrintOut.Text = "Has battery?";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(15, 310);
+            this.label25.Location = new System.Drawing.Point(13, 262);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(67, 15);
             this.label25.TabIndex = 24;
@@ -307,11 +313,11 @@ namespace Hardware
             // MotherBoard_Lbl_PrintOut
             // 
             this.MotherBoard_Lbl_PrintOut.AutoSize = true;
-            this.MotherBoard_Lbl_PrintOut.Location = new System.Drawing.Point(15, 325);
+            this.MotherBoard_Lbl_PrintOut.Location = new System.Drawing.Point(15, 281);
             this.MotherBoard_Lbl_PrintOut.Name = "MotherBoard_Lbl_PrintOut";
-            this.MotherBoard_Lbl_PrintOut.Size = new System.Drawing.Size(44, 15);
+            this.MotherBoard_Lbl_PrintOut.Size = new System.Drawing.Size(109, 15);
             this.MotherBoard_Lbl_PrintOut.TabIndex = 25;
-            this.MotherBoard_Lbl_PrintOut.Text = "label26";
+            this.MotherBoard_Lbl_PrintOut.Text = "MortherBordModel";
             // 
             // Gpu_MaxWattage_Lbl_PrintOut
             // 
@@ -342,9 +348,9 @@ namespace Hardware
             this.Cpu_artchitechture_LBL_Printout.AutoSize = true;
             this.Cpu_artchitechture_LBL_Printout.Location = new System.Drawing.Point(10, 173);
             this.Cpu_artchitechture_LBL_Printout.Name = "Cpu_artchitechture_LBL_Printout";
-            this.Cpu_artchitechture_LBL_Printout.Size = new System.Drawing.Size(38, 15);
+            this.Cpu_artchitechture_LBL_Printout.Size = new System.Drawing.Size(104, 15);
             this.Cpu_artchitechture_LBL_Printout.TabIndex = 28;
-            this.Cpu_artchitechture_LBL_Printout.Text = "label5";
+            this.Cpu_artchitechture_LBL_Printout.Text = "CPU_Artchitecture";
             // 
             // label5
             // 
@@ -360,9 +366,9 @@ namespace Hardware
             this.Gpu_Arthitecture_Lbl_printout.AutoSize = true;
             this.Gpu_Arthitecture_Lbl_printout.Location = new System.Drawing.Point(11, 226);
             this.Gpu_Arthitecture_Lbl_printout.Name = "Gpu_Arthitecture_Lbl_printout";
-            this.Gpu_Arthitecture_Lbl_printout.Size = new System.Drawing.Size(38, 15);
+            this.Gpu_Arthitecture_Lbl_printout.Size = new System.Drawing.Size(98, 15);
             this.Gpu_Arthitecture_Lbl_printout.TabIndex = 30;
-            this.Gpu_Arthitecture_Lbl_printout.Text = "label7";
+            this.Gpu_Arthitecture_Lbl_printout.Text = "GPU_Arthitecture";
             // 
             // Error_MS_LBL
             // 
@@ -391,6 +397,24 @@ namespace Hardware
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(197, 307);
             this.panel1.TabIndex = 32;
+            // 
+            // Max_Resolution_Printout_Lbl
+            // 
+            this.Max_Resolution_Printout_Lbl.AutoSize = true;
+            this.Max_Resolution_Printout_Lbl.Location = new System.Drawing.Point(11, 281);
+            this.Max_Resolution_Printout_Lbl.Name = "Max_Resolution_Printout_Lbl";
+            this.Max_Resolution_Printout_Lbl.Size = new System.Drawing.Size(105, 15);
+            this.Max_Resolution_Printout_Lbl.TabIndex = 32;
+            this.Max_Resolution_Printout_Lbl.Text = "Max_Res__Support";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(10, 262);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(168, 15);
+            this.label9.TabIndex = 31;
+            this.label9.Text = "Highest Resolution Supported:";
             // 
             // panel2
             // 
@@ -459,28 +483,60 @@ namespace Hardware
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.GrayText;
+            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.label13);
+            this.panel5.Controls.Add(this.label11);
+            this.panel5.Controls.Add(this.Cpu_Temp_Message_LBL);
             this.panel5.Location = new System.Drawing.Point(670, 40);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(175, 307);
             this.panel5.TabIndex = 35;
             // 
-            // label9
+            // Cpu_Temp_Message_LBL
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 262);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(168, 15);
-            this.label9.TabIndex = 31;
-            this.label9.Text = "Highest Resolution Supported:";
+            this.Cpu_Temp_Message_LBL.AutoSize = true;
+            this.Cpu_Temp_Message_LBL.Location = new System.Drawing.Point(11, 9);
+            this.Cpu_Temp_Message_LBL.Name = "Cpu_Temp_Message_LBL";
+            this.Cpu_Temp_Message_LBL.Size = new System.Drawing.Size(117, 15);
+            this.Cpu_Temp_Message_LBL.TabIndex = 0;
+            this.Cpu_Temp_Message_LBL.Text = "If cpu temp is abowe";
             // 
-            // Max_Resolution_Printout_Lbl
+            // label11
             // 
-            this.Max_Resolution_Printout_Lbl.AutoSize = true;
-            this.Max_Resolution_Printout_Lbl.Location = new System.Drawing.Point(11, 281);
-            this.Max_Resolution_Printout_Lbl.Name = "Max_Resolution_Printout_Lbl";
-            this.Max_Resolution_Printout_Lbl.Size = new System.Drawing.Size(44, 15);
-            this.Max_Resolution_Printout_Lbl.TabIndex = 32;
-            this.Max_Resolution_Printout_Lbl.Text = "label11";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(11, 29);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(89, 15);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "80C consider to";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(11, 44);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(120, 15);
+            this.label13.TabIndex = 2;
+            this.label13.Text = " improve the cooling:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(11, 115);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(124, 15);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Temps above this may";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(11, 130);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(125, 15);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "damage the hardware.";
             // 
             // FrontEnd
             // 
@@ -496,7 +552,8 @@ namespace Hardware
             this.Controls.Add(this.Error_MS_LBL);
             this.Controls.Add(this.label1);
             this.Name = "FrontEnd";
-            this.Text = "Form1";
+            this.Text = "HardwareControll program";
+            this.Load += new System.EventHandler(this.FrontEnd_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -505,6 +562,8 @@ namespace Hardware
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -554,6 +613,11 @@ namespace Hardware
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label Max_Resolution_Printout_Lbl;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label Cpu_Temp_Message_LBL;
     }
 }
 

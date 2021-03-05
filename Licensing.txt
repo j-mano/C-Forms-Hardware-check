@@ -1,0 +1,3 @@
+https://openhardwaremonitor.org/license/
+
+Program itself: feel free to use and distrubute.

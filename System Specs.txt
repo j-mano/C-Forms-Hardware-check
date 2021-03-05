@@ -1,0 +1,5 @@
+Os: Windows vista and onward with newest .net installed
+Cpu: Intel core 2 / AMD K8 and newer
+
+
+Does not measure intel gpu temps.
