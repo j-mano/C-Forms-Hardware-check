@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Email" Version="21.2.0" />
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Hardware.Info" Version="1.0.0.1" />
+    <PackageReference Include="ManagedCuda-Nvml.NETStandard" Version="9.1.300" />
+    <PackageReference Include="NvAPIWrapper.Net" Version="0.8.1.101" />
+    <PackageReference Include="OpenHardwareMonitorLibCore" Version="1.0.2" />
+    <PackageReference Include="System.Threading.AccessControl" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

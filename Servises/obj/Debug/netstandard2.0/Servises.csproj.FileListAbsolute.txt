@@ -1,0 +1,9 @@
+C:\Users\Joachim\source\repos\Servises\bin\Debug\netstandard2.0\Servises.deps.json
+C:\Users\Joachim\source\repos\Servises\bin\Debug\netstandard2.0\Servises.dll
+C:\Users\Joachim\source\repos\Servises\bin\Debug\netstandard2.0\Servises.pdb
+C:\Users\Joachim\source\repos\Servises\obj\Debug\netstandard2.0\Servises.csprojAssemblyReference.cache
+C:\Users\Joachim\source\repos\Servises\obj\Debug\netstandard2.0\Servises.AssemblyInfoInputs.cache
+C:\Users\Joachim\source\repos\Servises\obj\Debug\netstandard2.0\Servises.AssemblyInfo.cs
+C:\Users\Joachim\source\repos\Servises\obj\Debug\netstandard2.0\Servises.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\source\repos\Servises\obj\Debug\netstandard2.0\Servises.dll
+C:\Users\Joachim\source\repos\Servises\obj\Debug\netstandard2.0\Servises.pdb

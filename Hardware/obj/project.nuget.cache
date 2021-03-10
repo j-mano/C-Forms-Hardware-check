@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "dgSpecHash": "r2mmkAh3aWYM+c8hiMmB5HfQ4uUyJRAtrEGuhAHoKmCzkJJ6he9Az/3VDRnAldJ6U29UovRxrrZMymBp/XW1xQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joachim\\source\\repos\\Hardware\\Hardware.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joachim\\.nuget\\packages\\aspose.email\\21.2.0\\aspose.email.21.2.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\hardware.info\\1.0.0.1\\hardware.info.1.0.0.1.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\managedcuda-nvml.netstandard\\9.1.300\\managedcuda-nvml.netstandard.9.1.300.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\managedcuda.netstandard\\9.1.300\\managedcuda.netstandard.9.1.300.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\mono.posix.netstandard\\1.0.0-beta3\\mono.posix.netstandard.1.0.0-beta3.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\nvapiwrapper.net\\0.8.1.101\\nvapiwrapper.net.0.8.1.101.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\openhardwaremonitorlibcore\\1.0.2\\openhardwaremonitorlibcore.1.0.2.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.io.filesystem.accesscontrol\\4.4.0\\system.io.filesystem.accesscontrol.4.4.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.io.ports\\4.4.0\\system.io.ports.4.4.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.management\\4.7.0\\system.management.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\system.threading.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OpenHardwareMonitorLibCore 1.0.2 depends on Microsoft.Win32.Registry (>= 4.5.0-preview2-25707-02) but Microsoft.Win32.Registry 4.5.0-preview2-25707-02 was not found. An approximate best match of Microsoft.Win32.Registry 4.5.0-preview2-26406-04 was resolved.",
+      "libraryId": "Microsoft.Win32.Registry",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OpenHardwareMonitorLibCore 1.0.2 depends on System.Management (>= 4.5.0-preview1-25825-08) but System.Management 4.5.0-preview1-25825-08 was not found. An approximate best match of System.Management 4.5.0-preview1-25914-04 was resolved.",
+      "libraryId": "System.Management",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
