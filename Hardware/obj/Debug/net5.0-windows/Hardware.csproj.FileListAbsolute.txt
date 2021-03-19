@@ -50,3 +50,10 @@ C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\win-x86
 C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\win-x86\native\MonoPosixHelper.dll
 C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\win-x86\native\libMonoPosixHelper.dll
 C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\Autofac.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\NPOI.OOXML.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\NPOI.OpenXml4Net.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\NPOI.OpenXmlFormats.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\NPOI.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Joachim\source\repos\Hardware\bin\Debug\net5.0-windows\ICSharpCode.SharpZipLib.dll

@@ -8,7 +8,11 @@ namespace Servises
 {
     public class Get_Cpu
     {
-        public static CpuModell Return_Cpu_Name()
+        /// <summary>
+        /// Returning information about the cpu. Building on sys32. ReturnModell is cpumodel.
+        /// </summary>
+        /// <returns></returns>
+        public static CpuModell ReturnCpu()
         {
             CpuModell cpumodell = new CpuModell();
 
@@ -27,13 +31,12 @@ namespace Servises
                     cpumodell.NumberOfEnabledCore   = (uint)obj["NumberOfEnabledCore"];
                     cpumodell.NumberOfLogicalProcessors = (uint)obj["NumberOfLogicalProcessors"];
                 }
+                return cpumodell;
             }
             catch
             {
                 throw;
             }
-
-            return cpumodell;
         }
     }
 }

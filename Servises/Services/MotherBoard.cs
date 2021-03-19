@@ -8,13 +8,17 @@ namespace Servises
 {
     public class MotherBoard
     {
+        /// <summary>
+        /// Get ModerbordInfo. Using sys32
+        /// </summary>
+        /// <returns></returns>
         public static MotherBoardModell GetModerBoardInfo()
         {
             MotherBoardModell returninfo = new MotherBoardModell();
 
-            ManagementObjectSearcher MotherboardInfoObject = new ManagementObjectSearcher("select * from Win32_BIOS");
-            ManagementObjectSearcher baseboardSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_BaseBoard");
-            ManagementObjectSearcher motherboardSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_MotherboardDevice");
+            ManagementObjectSearcher MotherboardInfoObject  = new ManagementObjectSearcher("select * from Win32_BIOS");
+            ManagementObjectSearcher baseboardSearcher      = new ManagementObjectSearcher("SELECT * FROM Win32_BaseBoard");
+            ManagementObjectSearcher motherboardSearcher    = new ManagementObjectSearcher("SELECT * FROM Win32_MotherboardDevice");
 
             try
             {
@@ -28,13 +32,13 @@ namespace Servises
                 {
                     returninfo.motherBoardName = queryObj["Product"].ToString();
                 }
+
+                return returninfo;
             }
             catch (Exception e)
             {
                 throw;
             }
-
-            return returninfo;
         }
     }
 }

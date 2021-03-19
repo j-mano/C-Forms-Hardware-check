@@ -1,4 +1,7 @@
 ﻿
+using NPOI.SS.Formula.Functions;
+using Servises.Services.iServices;
+
 namespace Hardware
 {
     partial class FrontEnd

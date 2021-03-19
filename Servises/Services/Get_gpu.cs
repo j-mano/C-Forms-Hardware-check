@@ -39,14 +39,13 @@ namespace Servises
                         Gpumodell.GpuHighestResAmountSupport = item["Caption"].ToString();
                     }
                 }
+
+                return Gpumodell;
             }
             catch
             {
                 throw;
             }
-                
-
-            return Gpumodell;
         }
     }
 }

@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[9.1.300, )"
             },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
             "NvAPIWrapper.Net": {
               "target": "Package",
               "version": "[0.8.1.101, )"

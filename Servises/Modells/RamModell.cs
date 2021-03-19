@@ -7,6 +7,7 @@ namespace Servises.Modells
     public class RamModell
     {
         public string RamAmount { get; set; }
+        public string OSReportRamamount { get; set; }
         public float RamSpeed { get; set; }
         public string RamName { get; set; }
     }

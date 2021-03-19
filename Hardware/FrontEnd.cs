@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Servises;
 using Servises.Modells;
 using Servises.Services;
+using Servises.Services.iServices;
 using Servises.TempProgramImportApi;
 
 namespace Hardware
@@ -81,7 +82,7 @@ namespace Hardware
                 CpuModell cpumodel = new CpuModell();
 
                 Task t3 = Task.Run(() => {
-                    cpumodel = Get_Cpu.Return_Cpu_Name();
+                    cpumodel = Get_Cpu.ReturnCpu();
                 });
 
                 t3.Wait();
@@ -190,7 +191,7 @@ namespace Hardware
         {
             try
             {
-                return Ram_Speed.GetRam();
+                return Ram_Info.GetRam();
             }
             catch (Exception e)
             {

@@ -7,12 +7,23 @@ namespace Servises.Services
 {
     public class IsAdmin
     {
+        /// <summary>
+        /// Returning an bool if the program is running as admin / sudo.
+        /// </summary>
+        /// <returns></returns>
         public static bool RundAsAdmin()
         {
-            using (WindowsIdentity identity = WindowsIdentity.GetCurrent())
+            try
             {
-                WindowsPrincipal principal = new WindowsPrincipal(identity);
-                return principal.IsInRole(WindowsBuiltInRole.Administrator);
+                using (WindowsIdentity identity = WindowsIdentity.GetCurrent())
+                {
+                    WindowsPrincipal principal = new WindowsPrincipal(identity);
+                    return principal.IsInRole(WindowsBuiltInRole.Administrator);
+                }
+            }
+            catch
+            {
+                throw;
             }
         }
     }

@@ -28,14 +28,13 @@ namespace Servises.Services
                         battery.batteryCapacaty = property.Value.ToString();
                     }
                 }
+                return battery;
             }
             catch
             {
                 battery.hasbattery = false;
                 throw;
             }
-
-            return battery;
         }
     }
 }
